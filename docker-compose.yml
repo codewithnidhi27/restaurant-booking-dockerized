@@ -5,7 +5,7 @@ services:
     volumes:
       - ./public:/var/www/html/
     restart: always
-    depends_on:
+    depends_on: 
       - mysql
 
   apache:
